@@ -1,13 +1,13 @@
 name: Muhammad Maroof
 
 on:
-  :push
-    braches:[ main ]
+   push:
+    branches: [main]
 
 
 jobs:
   demo:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Greetings
